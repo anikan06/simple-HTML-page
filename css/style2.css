@@ -1,0 +1,47 @@
+body {
+    overflow: hidden;
+}
+
+.img-cstm {
+    filter: invert(100%) !important;
+    width: 160px;
+}
+.bg-drk {
+    background-color: #000000 !important;
+    color: #ffffff;
+}
+
+.fntGry {
+    color: #999999;
+    font-size: 0.72em;
+}
+
+.fntGry_1 {
+    color: #999999;
+}
+
+.fntWgt {
+    font-weight: 600;
+}
+
+.fnt-s {
+    font-size: 0.899em;
+}
+
+.fntRd {
+    color: red;
+}
+
+.chkbx {
+    position: absolute;
+    top: 1em;
+    /* z-index: 999; */
+    left: 19em;
+    width: 24px;
+    height: 24px;
+}
+
+.htcal {
+
+    height: calc(100vh - 10vh);
+}

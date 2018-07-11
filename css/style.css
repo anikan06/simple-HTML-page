@@ -140,6 +140,11 @@ a {
     margin-bottom: 10px;
 }
 
+.btn-cstm {
+    background-color: #f37702 !important;
+    color: #ffffff;
+}
+
 .multistep .multistep-step .multistep-stepname {
     margin-bottom: 16px;
     color: #595959;
