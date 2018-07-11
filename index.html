@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cd</title>
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container-fluid px-0">
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="#" class="clrwt">
+                            OUST
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="clrwt">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#" class="clrwt">Shortcuts</a>
+                    </li>
+                    <li>
+                        <a href="#" class="clrwt">Overview</a>
+                    </li>
+                    <li>
+                        <a href="#" class="clrwt">Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="clrwt">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="clrwt">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="clrwt">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper p-0">
+                <div class="container-fluid px-0">
+                    <nav class="navbar navbar-light bg-light">
+
+                        <div class="navbar-brand">
+                            <a href="#menu-toggle" id="togmnu"><i class="fa fa-bars fa-2x"></i></a>
+                            <span class="hd_q align-text-bottom fnt-1">OUSTDEV</span>
+                        </div>
+                        <!--<form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>-->
+                        <div class="row">
+                            <ul class="nav float-right p-2">
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome, User <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/user/preferences"><i class="icon-cog"></i> Preferences</a></li>
+                                        <li><a href="/help/support"><i class="icon-envelope"></i> Contact Support</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="/auth/logout"><i class="icon-off"></i> Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <img src="https://cdn4.iconfinder.com/data/icons/people-of-business/512/People_Business_man_tie_shirt-512.png" style="height: 50px" class="rounded-circle">
+                        </div>
+                    </nav>
+
+                    <div class="card">
+                        <div class="card-header">
+                           <span class="fnt-1">
+                               Playlist
+                           </span>
+                           <span class="float-right">
+                               <button class="btn btn-sm btn-warning">Back
+                               </button>
+                           </span>
+                        </div>
+                        <div class="card-body bg-light">
+                            <div class="card">
+                                <div class="card-body">
+
+                                    <div class="row mx-auto" style="width: 75%; margin: 10px auto;">
+
+                                        <div class="row my-2 multistep" style="width:100%;">
+                                            <div class="col-3 multistep-step complete">
+
+                                                <div class="progress"><div class="progress-bar"></div></div>
+                                                <a href="#" class="multistep-dot"></a>
+                                                <div class="text-center multistep-stepname my-3">Overview</div>
+                                            </div>
+
+                                            <div class="col-3 multistep-step current">
+
+                                                <div class="progress"><div class="progress-bar"></div></div>
+                                                <a href="#" class="multistep-dot"></a>
+                                                <div class="text-center multistep-stepname my-3">Timeline</div>
+                                            </div>
+
+                                            <div class="col-3 multistep-step next">
+
+                                                <div class="progress"><div class="progress-bar"></div></div>
+                                                <a href="#" class="multistep-dot"></a>
+                                                <div class="text-center multistep-stepname my-3">Settings</div>
+                                            </div>
+
+                                            <div class="col-3 multistep-step disabled">
+
+                                                <div class="progress"><div class="progress-bar"></div></div>
+                                                <a href="#" class="multistep-dot"></a>
+
+                                                <div class="text-center multistep-stepname my-3">Preview</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row mx-auto my-5">
+                                        <div class="accordion" id="accordionExample" style="width: 100%">
+                                            <div class="card">
+                                                <div class="card-header" id="headingNew">
+
+                                                    <div class="row mx-auto">
+                                                        <div class="col-8">
+                                                            <button class="btn btn-link collapsed" type="button">
+                                                                Overview
+                                                            </button>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <button class="btn btn-link float-right collapsed " type="button" data-toggle="collapse" data-target="#collapseNew" aria-expanded="false" aria-controls="collapseNew">
+                                                                <i class="fa fa-chevron-down"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapseNew" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="headingOne">
+                                                    <div class="row mx-auto">
+                                                        <div class="col-8">
+                                                            <button class="btn btn-link collapsed" type="button">
+                                                                Timeline
+                                                            </button>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <button class="btn btn-link float-right" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                <i class="fa fa-chevron-down"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                       <div class="row mx-auto">
+                                                           <div class="col-12">
+                                                               <div class="row mx-auto my-3">
+                                                                   <div class="col-8">
+                                                                       <div class="row">
+                                                                           <form class="form-inline">
+                                                                               <div class="form-group">
+                                                                                   <select class="form-control form-control-sm">
+                                                                                       <option>Default select</option>
+                                                                                       <option>Default select</option>
+                                                                                       <option>Default select</option>
+                                                                                   </select>
+                                                                               </div>
+                                                                               <div class="form-group">
+                                                                                   <label class="sr-only" for="searchbytag">Username</label>
+                                                                                   <div class="input-group input-group-sm mr-sm-2">
+                                                                                       <input type="text" class="form-control form-control-sm" id="searchbytag" placeholder="Search By Tag">
+                                                                                       <div class="input-group-prepend">
+                                                                                           <div class="input-group-text">@</div>
+                                                                                       </div>
+                                                                                   </div>
+                                                                               </div>
+                                                                           </form>
+                                                                       </div>
+                                                                   </div>
+                                                                   <div class="col-4">
+                                                                       <button class="btn btn-success btn-sm float-right"><i class="fa fa-plus"></i>Add </button>
+                                                                   </div>
+
+
+                                                               </div>
+                                                           </div>
+                                                       </div>
+                                                        <div class="row mx-auto">
+                                                            <table class="table table-striped">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th scope="col">#</th>
+                                                                    <th scope="col">Name</th>
+                                                                    <th scope="col">Interval</th>
+                                                                    <th scope="col">Schedule</th>
+                                                                    <th scope="col">Action</th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td><i class="fa fa-book"></i> &nbsp; Course Name</td>
+                                                                    <td>
+                                                                        <select class="form-control form-control-sm">
+                                                                            <option selected="selected">Day</option>
+                                                                            <option>Day</option>
+                                                                            <option>Day</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <select class="form-control form-control-sm">
+                                                                            <option selected="selected">Today</option>
+                                                                            <option>Yesterday</option>
+                                                                            <option>Day</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="clrd">
+                                                                            <i class="fa fa-trash"></i>
+                                                                        </span>
+                                                                        <span class="clrd">
+                                                                            <i class="fa fa-eye"></i>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td><i class="fa fa-gamepad"></i> &nbsp; Course Name</td>
+                                                                    <td>
+                                                                        <select class="form-control form-control-sm">
+                                                                            <option selected="selected">Day</option>
+                                                                            <option>Day</option>
+                                                                            <option>Day</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <select class="form-control form-control-sm">
+                                                                            <option selected="selected">Today</option>
+                                                                            <option>Yesterday</option>
+                                                                            <option>Day</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="clrd">
+                                                                            <i class="fa fa-trash"></i>
+                                                                        </span>
+                                                                        <span class="clrd">
+                                                                            <i class="fa fa-eye"></i>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td><i class="fa fa-search-plus"></i> &nbsp; Course Name</td>
+                                                                    <td>
+                                                                        <select class="form-control form-control-sm">
+                                                                            <option selected="selected">Day</option>
+                                                                            <option>Day</option>
+                                                                            <option>Day</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <select class="form-control form-control-sm">
+                                                                            <option selected="selected">Today</option>
+                                                                            <option>Yesterday</option>
+                                                                            <option>Day</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="clrd">
+                                                                            <i class="fa fa-trash"></i>
+                                                                        </span>
+                                                                        <span class="clrd">
+                                                                            <i class="fa fa-eye"></i>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td><i class="fa fa-book"></i> &nbsp; Course Name</td>
+                                                                    <td>
+                                                                        <select class="form-control form-control-sm">
+                                                                            <option selected="selected">Day</option>
+                                                                            <option>Day</option>
+                                                                            <option>Day</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <select class="form-control form-control-sm">
+                                                                            <option selected="selected">Today</option>
+                                                                            <option>Yesterday</option>
+                                                                            <option>Day</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="clrd">
+                                                                            <i class="fa fa-trash"></i>
+                                                                        </span>
+                                                                        <span class="clrd">
+                                                                            <i class="fa fa-eye"></i>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td><i class="fa fa-book"></i> &nbsp; Course Name</td>
+                                                                    <td>
+                                                                        <select class="form-control form-control-sm">
+                                                                            <option selected="selected">Day</option>
+                                                                            <option>Day</option>
+                                                                            <option>Day</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <select class="form-control form-control-sm">
+                                                                            <option selected="selected">Today</option>
+                                                                            <option>Yesterday</option>
+                                                                            <option>Day</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="clrd">
+                                                                            <i class="fa fa-trash"></i>
+                                                                        </span>
+                                                                        <span class="clrd">
+                                                                            <i class="fa fa-eye"></i>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="row mx-auto" style="width: 75%; margin: 10rem auto;">
+
+                                                            <div class="row my-2 multistep" style="width:100%;">
+                                                                <div class="col-3 multistep-step complete">
+
+                                                                    <div class="progress"><div class="progress-bar"></div></div>
+                                                                    <a href="#" class="multistep-dot-big">12  days</a>
+                                                                    <div class="text-center multistep-stepname my-3">Overview</div>
+                                                                </div>
+
+                                                                <div class="col-3 multistep-step current">
+
+                                                                    <div class="progress"><div class="progress-bar"></div></div>
+                                                                    <a href="#" class="multistep-dot-big"></a>
+                                                                    <div class="text-center multistep-stepname my-3">Timeline</div>
+                                                                </div>
+
+                                                                <div class="col-3 multistep-step next">
+
+                                                                    <div class="progress"><div class="progress-bar"></div></div>
+                                                                    <a href="#" class="multistep-dot-big"></a>
+                                                                    <div class="text-center multistep-stepname my-3">Settings</div>
+                                                                </div>
+
+                                                                <div class="col-3 multistep-step disabled">
+
+                                                                    <div class="progress"><div class="progress-bar"></div></div>
+                                                                    <a href="#" class="multistep-dot-big"></a>
+
+                                                                    <div class="text-center multistep-stepname my-3">Preview</div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="headingTwo">
+                                                    <div class="row mx-auto">
+                                                        <div class="col-8">
+                                                            <button class="btn btn-link collapsed" type="button">
+                                                                Settings
+                                                            </button>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <button class="btn btn-link float-right collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                <i class="fa fa-chevron-down"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="headingThree">
+                                                    <div class="row mx-auto">
+                                                        <div class="col-8">
+                                                            <button class="btn btn-link collapsed" type="button">
+                                                                Preview
+                                                            </button>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <button class="btn btn-link float-right collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                <i class="fa fa-chevron-down"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+
+        </div>
+    </div>
+    <script>
+        $("#togmnu").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+</html>
